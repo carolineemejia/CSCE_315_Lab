@@ -1,13 +1,27 @@
 h1 {
-    color: rgb(172, 16, 239);
+    color: maroon;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(http://2.bp.blogspot.com/-pp0at5PHjpw/T6pz0Af1bAI/AAAAAAAABLo/whllWyxSAoY/s1600/IMG_0049.JPG);
 }
 
-.blue_overline_text {
+.header {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(128, 0, 0, 0.788);
+
+
+}
+
+.aboutme {
     color: blue;
-    text-decoration: overline;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* 
 #red_underline_text {
     color: red;
     text-decoration: underline;
+} */
+
+a:hover {
+    background-color: maroon;
 }
