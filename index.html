@@ -3,26 +3,173 @@
 
 <head>
     <title>Caroline Mejia</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link id="original_theme" rel="stylesheet" type="text/css" href="style.css">
+
+    <script>
+        function toggleTheme() {
+            var theme = document.getElementsByTagName('link')[0];
+
+            if (theme.getAttribute('href') == 'style.css') {
+                theme.setAttribute('href', 'alt_style.css');
+            }
+            else {
+                theme.setAttribute('href', 'style.css');
+            }
+        }
+    </script>
 
 </head>
 
 <body>
-    <h1>Welcome to CSCE 315 Lab!</h1>
-    <div id="header">
-        <p class="intro">This page is the start of my CSCE 315 journey. Thank you for taking the time to explore. If you
-            have already,
-            check out the about me page to learn more! :)</p>
-    </div>
+    <header id="header">
+        <div class="container">
+            <h1>Welcome to Caroline's CSCE 315 Page!</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portolio">Technical Portfolio</a></li>
+                    <li><a href="#qualifications">Qualifications</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#switch">Switch Theme</a></li>
 
-    <div class="img">
-        <img src="https://25.media.tumblr.com/c3ecee24822c884d3195d134cc7fb006/tumblr_mmdce7p8CU1qancemo1_400.gif" />
 
-    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <div class="about">
-        <a href="about.html" class="about">About</a>
-    </div>
+
+
+    <section class="banner" id="home">
+        <div class="img">
+            <div id="row1">
+                <p>This page is the start of my CSCE 315 journey. Thank you for taking the time to explore. If you
+                    haven't
+                    already,
+                    check out the about me section to learn more! :)</p>
+            </div>
+
+            <div id="row2">
+                <img src="https://c.tenor.com/iUbdTlhnAu0AAAAC/creativity-innovation.gif" />
+
+            </div>
+
+            <div id="row3">
+                <p>Please enjoy this gif. I hope it is able to brighten your day!</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about_section" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Howdy! My name is Caroline Mejia and I am a senior Computer Engineering major at Texas A&M University. I
+                have completed a minor in Mathematics and I hope to complete a minor in Cybersecurity. At Texas A&M
+                University, I am a member of the Society of Women in Engineering and the Society of Hispanic
+                Professional Engineers. In my spare time, I enjoy playing video games such as Valorant, Portal,
+                Minecraft, and I especially love playing any Legend of Zelda game (Majora's Mask is currently my
+                favorite game in the series). When I am not investing my time in video games, I like to take road trips
+                and explore different restaurants along the way. I would say that I could be a foodie, however, I would
+                not consider myself to be a food expert; if you ever need a restaurant recommendation I can provide
+                that! I have found that through food, you are able to truly uncover what makes culture so great. I pride
+                myself on exploring new cuisine, however, the cuisine of my own heritage will always be my favorite. I
+                am Latina through my mother and father, although I do have Puerto Rican influences from my
+                step-grandfather. My mother is Mexican; she was born and raised in a small town named Santiago de
+                Ixcuintla and she eventually moved to the US when she married my father. My dad is Ecuadorean and he was
+                born in Manta, Ecuador. At the young age of 7, my dad moved to Brooklyn, New York, and has lived in the
+                US ever since. Although it might not be very common, I am very proud to be a Latina woman pursuing a
+                degree in the STEM field. My dad, being an electrical engineer, inspired me to want to go into the
+                engineering field. Now here I am 1 year away from obtaining a Bachelor's Degree. I am excited to see
+                what the future holds and I hope you will join me on my journey! </p>
+
+            <div>
+                <h6>Socials</h6>
+                <p>If you would like to see more of what I do on a day-to-day basis, please feel free to check out any
+                    of my socials linked below!</p>
+
+                <p><a href="https://twitter.com/aycaramboi">Twitter</a>
+                </p>
+                <p><a href="https://www.facebook.com/carol.mejia.9083">Facebook</a>
+                </p>
+                <p><a href="https://www.linkedin.com/in/mejia808/">LinkedIn</a>
+                </p>
+                <p><a href="https://www.instagram.com/aycaramboi/">Instagram</a>
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="technical_section" id="portfolio">
+        <div class="container">
+            <h3>Technical Portfolio</h3>
+            <p>Below, I have included links of projects that I have felt particularly proud of. Some of the linked
+                projects are pieces of code that I have worked on in class and other links are projects I have done in
+                my spare time.</p>
+            <div>
+                <h7>Projects</h7>
+
+                <p><a href="https://github.com/CSCE313-SP22-Tyagi/pa2-aggie-shell-carolineemejia">Basic Linux Shell</a>
+                </p>
+                <p><a href="https://github.com/CSCE313-SP22-Tyagi/pa4-ipc-mechanisms-carolineemejia">Client-Server
+                        Sytem Using IPC Mechanisms</a>
+                </p>
+                <p><a href="https://github.com/CSCE313-SP22-Tyagi/pa5-the-server-moved-out-carolineemejia">Client-Server
+                        Sytem Using TCP Protocols</a>
+                </p>
+                <p><a href="https://github.com/CSCE313-SP22-Tyagi/pa3-threading-and-synchronization-carolineemejia">Client-Server
+                        Sytem Using Threads and Synchronization</a>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="qualification_section" id="qualifications">
+        <div class="container">
+            <h4>Qualifications</h4>
+            <p>My technical skills include knowledge in C++, object-oriented coding, javascript, html, autodesk
+                inventor, SOLIDWorks, Verilog, and others.</p>
+            <p>My technical areas of interest within the scope of computer science are cybersecurity, artificial
+                intelligence, and machine learning. I picked these particular interest since they are all related to
+                classes that I have taken at A&M and I found the content to be interesting. I also find these areas of
+                interest to be incredibly valuable to the future of technology. </p>
+            <h8>Resume</h8>
+            <iframe src="https://drive.google.com/file/d/1OgtdDs6S7Ru3uS39LRE6K9Cg0XaOuikB/preview" width="640"
+                height="480" allow="autoplay"></iframe>
+        </div>
+    </section>
+
+    <section class="service_section" id="service">
+        <div class="container">
+            <h4>Service</h4>
+            <p>Over the years, I have tried to give back to the Austin community by volunteering in the Feed My
+                People Breakfeast program. Through the First United Methodist Church of Austin, a group of volunteers
+                prepare and serve breakfeast for the homeless. I began volunteering with this organization when I was in
+                middle
+                school, so any age group can volunteer to serve breakfeat (if you are a minor than an adult is required
+                to accompany you). To learn more information about this foundation, click the link
+                below. </p>
+            <p><a href="https://fumcaustin.org/feed-my-people-experience/">Feed My People Breakfeast</a>
+            </p>
+            <p>I love the city of Austin and one of the reasons the city is so beautiful is because of the many parks
+                that are across the city. If you are interested in finding out how to help out the city of Austin,
+                please consider checking out the link below!</p>
+            <p><a href="https://austinparks.org/">Austin Parks Alive</a>
+            </p>
+        </div>
+    </section>
+
+    <section class="switch_theme" id="switch">
+        <div class="container">
+            <h5>Switch Theme</h5>
+            <p>Click the button below to switch between themes!</p>
+            <button onclick="toggleTheme()">Switch Theme</button>
+        </div>
+    </section>
+
 
 </body>
 

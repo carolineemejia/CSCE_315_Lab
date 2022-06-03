@@ -29,3 +29,7 @@ h1 {
 .about:hover {
     background: #dadada;
 }
+
+#output {
+    text-align: center;
+}
