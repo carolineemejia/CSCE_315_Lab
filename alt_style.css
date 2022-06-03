@@ -151,6 +151,9 @@ h5 {
 
 }
 
+
+
+
 h6 {
     font-family: 'Bungee Shade', sans-serif;
     font-size: 30px;
@@ -174,6 +177,46 @@ h8 {
 
 }
 
+h9 {
+    font-family: 'Bungee Shade', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    margin-right: 100px;
+
+}
+
+h10 {
+    font-family: 'Bungee Shade', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    margin-right: 100px;
+
+}
+
+h11 {
+    font-family: 'Bungee Shade', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    margin-right: 100px;
+
+}
+
+h12 {
+    font-family: 'Bungee Shade', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    margin-right: 100px;
+
+}
+
+h13 {
+    font-family: 'Bungee Shade', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    margin-right: 100px;
+
+}
+
 .about_section {
     background-color: rgb(95, 191, 159);
     text-align: left;
@@ -181,7 +224,7 @@ h8 {
     padding-bottom: 50px;
 }
 
-.technical_section {
+.portfolio_section {
     background-color: orange;
     text-align: left;
     font-family: 'Roboto Slab', sans-serif;
